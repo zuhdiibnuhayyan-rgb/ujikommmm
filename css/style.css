@@ -1,15 +1,26 @@
 * {
+<<<<<<< HEAD
   margin: 0;
+=======
+   margin: 0;
+>>>>>>> c09a5c7 (zuhdibau)
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 body {
+<<<<<<< HEAD
   font-family: 'Poppins', sans-serif;
   background: #07111f;
   color: #fff;
   overflow-x: hidden;
+=======
+       font-family: 'Poppins', sans-serif;
+       background: #07111f;
+       color: #fff;
+       overflow-x: hidden;
+>>>>>>> c09a5c7 (zuhdibau)
 }
 
 img {
