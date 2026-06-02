@@ -34,7 +34,8 @@ onValue(sensorRef, (snapshot) => {
 function updateStats(data) {
   // Suhu
   const suhu = data.suhu ?? '--';
-  document.getElementById('statSuhu').textContent = suhu + '°C';
+  const statSuhuEl = document.getElementById('statSuhu');
+  if (statSuhuEl) statSuhuEl.textContent = suhu + '°C';
   const trendSuhu = document.getElementById('trendSuhu');
   if (trendSuhu && suhu !== '--') {
     trendSuhu.textContent = suhu > 35 ? '↑ Panas!' : suhu > 28 ? '↑ Normal' : '↓ Dingin';
@@ -43,7 +44,8 @@ function updateStats(data) {
 
   // Cahaya
   const cahaya = data.cahaya ?? '--';
-  document.getElementById('statCahaya').textContent = cahaya + ' lx';
+  const statCahayaEl = document.getElementById('statCahaya');
+  if (statCahayaEl) statCahayaEl.textContent = cahaya + ' lx';
   const trendCahaya = document.getElementById('trendCahaya');
   if (trendCahaya && cahaya !== '--') {
     trendCahaya.textContent = cahaya > 400 ? '↑ Terang' : cahaya > 100 ? '↑ Redup' : '↓ Gelap';
