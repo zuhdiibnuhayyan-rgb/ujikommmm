@@ -10,8 +10,11 @@ import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.0/firebase
 const firebaseConfig = {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c09a5c7 (zuhdibau)
+=======
+>>>>>>> aca73739e2185a76c56d2a31ed65046c9d1d510b
   apiKey: "AIzaSyCzBDdHWLMkWN7bH3oJBdri6s5KRBM6EHk",
   authDomain: "monitoring-iot-29ac6.firebaseapp.com",
   databaseURL: "https://monitoring-iot-29ac6-default-rtdb.asia-southeast1.firebasedatabase.app",
@@ -20,6 +23,7 @@ const firebaseConfig = {
   messagingSenderId: "4724063661",
   appId: "1:4724063661:web:0a03e34b61072f9fd97524",
   measurementId: "G-2Y44SR9LMN"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   apiKey: "AIzaSyD-P7awz7sXi4bigAtwIl1iNxro-T1h6Wo",
@@ -32,6 +36,8 @@ const firebaseConfig = {
 >>>>>>> 34cd794e32ba80f6c1b1a6539da9dab873dfe0d4
 =======
 >>>>>>> c09a5c7 (zuhdibau)
+=======
+>>>>>>> aca73739e2185a76c56d2a31ed65046c9d1d510b
 };
 
 const app = initializeApp(firebaseConfig);
