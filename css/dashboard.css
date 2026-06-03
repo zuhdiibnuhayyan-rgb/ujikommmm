@@ -5,8 +5,33 @@
   font-family:Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
 body{
   background:#f3f4f6;
+=======
+:root{
+  --bg: #071A2F;
+  --surface: rgba(15, 23, 42, 0.95);
+  --surface-soft: rgba(15, 23, 42, 0.8);
+  --panel: rgba(15, 23, 42, 0.92);
+  --border: rgba(148, 163, 184, 0.16);
+  --text: #E2E8F0;
+  --muted: #94A3B8;
+  --primary: #38BDF8;
+  --primary-strong: #0EA5E9;
+  --accent: #22D3EE;
+  --success: #4ADE80;
+  --warning: #FBBF24;
+  --danger: #F87171;
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+body{
+  background: radial-gradient(circle at top right, rgba(56, 189, 248, 0.12), transparent 18%),
+              radial-gradient(circle at bottom left, rgba(34, 211, 238, 0.08), transparent 20%),
+              var(--bg);
+  color: var(--text);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 .app-shell{
@@ -17,13 +42,24 @@ body{
 /* ================= SIDEBAR ================= */
 .sidebar{
   width:260px;
+<<<<<<< HEAD
   background:#111827;
   color:white;
+=======
+  background: rgba(10, 25, 46, 0.98);
+  color: var(--text);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
   position:fixed;
   left:0;
   top:0;
   height:100vh;
+<<<<<<< HEAD
   padding:20px;
+=======
+  padding:24px 22px;
+  border-right: 1px solid rgba(148, 163, 184, 0.12);
+  box-shadow: inset -3px 0 15px rgba(15, 23, 42, 0.35);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
   z-index:1000;
 }
 
@@ -39,7 +75,11 @@ body{
 .sidebar-brand img{
   width:40px;
   height:40px;
+<<<<<<< HEAD
   border-radius:10px;
+=======
+  border-radius:12px;
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 .sidebar-nav{
@@ -50,35 +90,66 @@ body{
 
 .sidebar-nav a{
   text-decoration:none;
+<<<<<<< HEAD
   color:white;
   padding:14px 16px;
   border-radius:12px;
+=======
+  color: var(--text);
+  padding:14px 18px;
+  border-radius:14px;
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
   transition:0.3s;
   display:block;
 }
 
 .sidebar-nav a:hover{
+<<<<<<< HEAD
   background:rgba(255,255,255,0.1);
 }
 
 .sidebar-nav a.active{
   background:#2563eb;
+=======
+  background: rgba(56, 189, 248, 0.14);
+  color: #ffffff;
+}
+
+.sidebar-nav a.active{
+  background: linear-gradient(135deg, #0EA5E9, #22D3EE);
+  color: #071A2F;
+  font-weight: 600;
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 .logout{
   margin-top:20px;
+<<<<<<< HEAD
   background:#dc2626;
 }
 
 .logout:hover{
   background:#b91c1c !important;
+=======
+  background: linear-gradient(135deg, #F87171, #DC2626);
+  color: white;
+  text-align:center;
+}
+
+.logout:hover{
+  background: linear-gradient(135deg, #DC2626, #EF4444) !important;
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 /* ================= MAIN ================= */
 .main{
   margin-left:260px;
   width:calc(100% - 260px);
+<<<<<<< HEAD
   padding:25px;
+=======
+  padding:28px;
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 /* ================= TOPBAR ================= */
@@ -86,6 +157,7 @@ body{
   display:flex;
   justify-content:space-between;
   align-items:center;
+<<<<<<< HEAD
   margin-bottom:25px;
 }
 
@@ -96,6 +168,18 @@ body{
 
 .muted{
   color:#6b7280;
+=======
+  margin-bottom:28px;
+}
+
+.topbar h1{
+  font-size:32px;
+  margin-bottom:8px;
+}
+
+.muted{
+  color: var(--muted);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 .topbar-actions{
@@ -105,6 +189,7 @@ body{
 }
 
 .status-pill{
+<<<<<<< HEAD
   background:white;
   padding:10px 14px;
   border-radius:20px;
@@ -113,6 +198,17 @@ body{
   align-items:center;
   gap:8px;
   box-shadow:0 2px 10px rgba(0,0,0,0.08);
+=======
+  background: rgba(255,255,255,0.08);
+  color: var(--text);
+  padding:12px 16px;
+  border-radius:22px;
+  font-size:14px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  border: 1px solid rgba(148, 163, 184, 0.14);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 .dot{
@@ -123,6 +219,7 @@ body{
 }
 
 .online{
+<<<<<<< HEAD
   background:#22c55e;
 }
 
@@ -140,10 +237,33 @@ body{
   border-radius:50%;
   background:#2563eb;
   color:white;
+=======
+  background: var(--success);
+}
+
+.warn{
+  background: var(--warning);
+}
+
+.off{
+  background: var(--danger);
+}
+
+.avatar{
+  width:46px;
+  height:46px;
+  border-radius:50%;
+  background: linear-gradient(135deg, #0EA5E9, #22D3EE);
+  color:#071A2F;
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
   display:flex;
   justify-content:center;
   align-items:center;
   font-weight:bold;
+<<<<<<< HEAD
+=======
+  box-shadow: 0 15px 40px rgba(34, 211, 238, 0.12);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 /* ================= STATS ================= */
@@ -155,24 +275,41 @@ body{
 }
 
 .stat-card{
+<<<<<<< HEAD
   padding:22px;
   border-radius:20px;
   color:white;
   box-shadow:0 5px 20px rgba(0,0,0,0.08);
+=======
+  padding:24px;
+  border-radius:24px;
+  color:white;
+  box-shadow: var(--shadow);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 .stat-card small{
   font-size:14px;
+<<<<<<< HEAD
   opacity:0.9;
 }
 
 .stat-card h2{
   font-size:32px;
   margin:10px 0;
+=======
+  opacity:0.85;
+}
+
+.stat-card h2{
+  font-size:34px;
+  margin:14px 0 10px;
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 .trend{
   font-size:14px;
+<<<<<<< HEAD
 }
 
 .gradient-1{
@@ -189,6 +326,25 @@ body{
 
 .gradient-4{
   background:linear-gradient(135deg,#8b5cf6,#7c3aed);
+=======
+  opacity:0.9;
+}
+
+.gradient-1{
+  background: linear-gradient(135deg, #2563EB, #0EA5E9);
+}
+
+.gradient-2{
+  background: linear-gradient(135deg, #14B8A6, #22D3EE);
+}
+
+.gradient-3{
+  background: linear-gradient(135deg, #F59E0B, #FBBF24);
+}
+
+.gradient-4{
+  background: linear-gradient(135deg, #8B5CF6, #818CF8);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 /* ================= PANELS ================= */
@@ -200,10 +356,18 @@ body{
 }
 
 .panel{
+<<<<<<< HEAD
   background:white;
   border-radius:20px;
   padding:20px;
   box-shadow:0 5px 20px rgba(0,0,0,0.06);
+=======
+  background: var(--panel);
+  border-radius:24px;
+  padding:24px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 .panel-header{
@@ -218,10 +382,23 @@ body{
 }
 
 select{
+<<<<<<< HEAD
   padding:10px;
   border-radius:10px;
   border:1px solid #ddd;
   outline:none;
+=======
+  padding:12px 14px;
+  border-radius:14px;
+  border:1px solid rgba(148, 163, 184, 0.16);
+  outline:none;
+  background: rgba(15, 23, 42, 0.92);
+  color: var(--text);
+}
+
+select option{
+  background: #0f172a;
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 /* ================= ACTIVITY ================= */
@@ -234,13 +411,22 @@ select{
   align-items:center;
   justify-content:space-between;
   gap:10px;
+<<<<<<< HEAD
   padding:12px 0;
   border-bottom:1px solid #eee;
+=======
+  padding:16px 0;
+  border-bottom:1px solid rgba(148, 163, 184, 0.12);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
   font-size:14px;
 }
 
 .activity-list small{
+<<<<<<< HEAD
   color:#6b7280;
+=======
+  color: var(--muted);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 /* ================= TABLE ================= */
@@ -255,6 +441,7 @@ select{
 
 .data-table th,
 .data-table td{
+<<<<<<< HEAD
   padding:14px;
   text-align:left;
   border-bottom:1px solid #eee;
@@ -262,6 +449,16 @@ select{
 
 .data-table th{
   background:#f9fafb;
+=======
+  padding:16px;
+  text-align:left;
+  border-bottom:1px solid rgba(148, 163, 184, 0.12);
+}
+
+.data-table th{
+  background: rgba(15, 23, 42, 0.95);
+  color: var(--text);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 /* ================= CHART ================= */
@@ -308,6 +505,7 @@ canvas{
     gap:15px;
   }
 }
+<<<<<<< HEAD
   </style>
 </head>
 
@@ -380,6 +578,8 @@ canvas{
         </div>
 
       </section>
+=======
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 
       <!-- Chart + Activity -->
       <section class="dashboard-grid">

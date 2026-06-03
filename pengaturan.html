@@ -25,33 +25,55 @@
     .form-field label {
       font-size: 0.85rem;
       font-weight: 600;
+<<<<<<< HEAD
       color: var(--muted, #6c757d);
+=======
+      color: var(--muted);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
       text-transform: uppercase;
       letter-spacing: 0.04em;
     }
     .form-field input, .form-field select, .form-field textarea {
       padding: 10px 14px;
       border-radius: 10px;
+<<<<<<< HEAD
       border: 1px solid var(--border, #dee2e6);
       background: var(--surface, #fff);
       color: var(--text, #212529);
+=======
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
       font-size: 0.95rem;
       transition: border-color 0.2s;
       outline: none;
     }
     .form-field input:focus, .form-field select:focus {
+<<<<<<< HEAD
       border-color: var(--primary, #0d6efd);
+=======
+      border-color: var(--primary);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
     }
     .toggle-switch {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 14px 0;
+<<<<<<< HEAD
       border-bottom: 1px solid var(--border, #dee2e6);
     }
     .toggle-switch:last-child { border-bottom: none; }
     .toggle-switch span { font-size: 0.95rem; }
     .toggle-switch small { color: var(--muted, #6c757d); font-size: 0.8rem; display: block; }
+=======
+      border-bottom: 1px solid var(--border);
+    }
+    .toggle-switch:last-child { border-bottom: none; }
+    .toggle-switch span { font-size: 0.95rem; }
+    .toggle-switch small { color: var(--muted); font-size: 0.8rem; display: block; }
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
     .switch {
       position: relative;
       display: inline-block;
@@ -63,7 +85,11 @@
     .slider {
       position: absolute; cursor: pointer;
       top: 0; left: 0; right: 0; bottom: 0;
+<<<<<<< HEAD
       background: var(--border, #dee2e6);
+=======
+      background: var(--border);
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
       border-radius: 24px;
       transition: 0.3s;
     }
@@ -75,6 +101,7 @@
       border-radius: 50%;
       transition: 0.3s;
     }
+<<<<<<< HEAD
     .switch input:checked + .slider { background: var(--primary, #0d6efd); }
     .switch input:checked + .slider:before { transform: translateX(20px); }
     .save-btn {
@@ -83,6 +110,12 @@
       border: none;
       border-radius: 10px;
       cursor: pointer;
+=======
+    .switch input:checked + .slider { background: var(--primary); }
+    .switch input:checked + .slider:before { transform: translateX(20px); }
+    .save-btn {
+      margin-top: 8px;
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
     }
     .alert-success {
       display: none;
@@ -94,6 +127,7 @@
       font-size: 0.9rem;
       margin-top: 12px;
     }
+<<<<<<< HEAD
     .badge-pill.ok {
       background: rgba(16,185,129,0.1);
       color: #10b981;
@@ -101,10 +135,16 @@
       border-radius: 20px;
       font-size: 0.85rem;
     }
+=======
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
   </style>
 </head>
 <body>
   <div class="app-shell">
+<<<<<<< HEAD
+=======
+    <!-- Sidebar -->
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
     <aside class="sidebar">
       <div class="sidebar-brand">
         <img src="img/logo.png" alt="Logo" />
@@ -119,6 +159,10 @@
       </nav>
     </aside>
 
+<<<<<<< HEAD
+=======
+    <!-- Main -->
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
     <main class="main">
       <header class="topbar">
         <div>
@@ -127,11 +171,19 @@
         </div>
         <div class="topbar-actions">
           <div class="status-pill"><span class="dot online"></span> Terhubung</div>
+<<<<<<< HEAD
           <div class="avatar" id="userAvatar">U</div>
+=======
+          <div class="avatar">U</div>
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
         </div>
       </header>
 
       <div class="settings-grid">
+<<<<<<< HEAD
+=======
+        <!-- Profil -->
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
         <section class="panel">
           <div class="panel-header">
             <h3>👤 Profil Akun</h3>
@@ -139,7 +191,11 @@
           <form id="profileForm">
             <div class="form-field">
               <label>Nama Tampilan</label>
+<<<<<<< HEAD
               <input type="text" id="displayName" placeholder="Nama Anda" required />
+=======
+              <input type="text" id="displayName" placeholder="Nama Anda" />
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
             </div>
             <div class="form-field">
               <label>Email</label>
@@ -148,7 +204,11 @@
             <div class="form-field">
               <label>Zona Waktu</label>
               <select id="timezone">
+<<<<<<< HEAD
                 <option value="Asia/Jakarta">WIB (UTC+7) - Jakarta</option>
+=======
+                <option value="Asia/Jakarta" selected>WIB (UTC+7) - Jakarta</option>
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
                 <option value="Asia/Makassar">WITA (UTC+8) - Makassar</option>
                 <option value="Asia/Jayapura">WIT (UTC+9) - Jayapura</option>
               </select>
@@ -158,6 +218,10 @@
           </form>
         </section>
 
+<<<<<<< HEAD
+=======
+        <!-- Notifikasi -->
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
         <section class="panel">
           <div class="panel-header">
             <h3>🔔 Notifikasi</h3>
@@ -169,7 +233,11 @@
                 <small>Notifikasi jika suhu melebihi ambang batas</small>
               </div>
               <label class="switch">
+<<<<<<< HEAD
                 <input type="checkbox" id="notifSuhu" />
+=======
+                <input type="checkbox" id="notifSuhu" checked />
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
                 <span class="slider"></span>
               </label>
             </div>
@@ -179,7 +247,11 @@
                 <small>Notifikasi jika sensor terputus</small>
               </div>
               <label class="switch">
+<<<<<<< HEAD
                 <input type="checkbox" id="notifOffline" />
+=======
+                <input type="checkbox" id="notifOffline" checked />
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
                 <span class="slider"></span>
               </label>
             </div>
@@ -196,6 +268,10 @@
           </div>
         </section>
 
+<<<<<<< HEAD
+=======
+        <!-- Ambang Batas Sensor -->
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
         <section class="panel">
           <div class="panel-header">
             <h3>⚠️ Ambang Batas Sensor</h3>
@@ -203,6 +279,7 @@
           <form id="thresholdForm">
             <div class="form-field">
               <label>Suhu Maksimum (°C)</label>
+<<<<<<< HEAD
               <input type="number" id="maxSuhu" value="35" min="20" max="60" required />
             </div>
             <div class="form-field">
@@ -212,16 +289,89 @@
             <div class="form-field">
               <label>Cahaya Minimum (lx)</label>
               <input type="number" id="minCahaya" value="100" min="0" max="2000" required />
+=======
+              <input type="number" id="maxSuhu" value="35" min="20" max="60" />
+            </div>
+            <div class="form-field">
+              <label>Kelembapan Minimum (%)</label>
+              <input type="number" id="minKelembapan" value="40" min="10" max="90" />
+            </div>
+            <div class="form-field">
+              <label>Cahaya Minimum (lx)</label>
+              <input type="number" id="minCahaya" value="100" min="0" max="2000" />
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
             </div>
             <button type="submit" class="btn btn-primary save-btn">Simpan Ambang Batas</button>
             <div class="alert-success" id="thresholdAlert">✓ Ambang batas berhasil disimpan!</div>
           </form>
         </section>
 
+<<<<<<< HEAD
+=======
+        <!-- Info Sistem -->
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
         <section class="panel">
           <div class="panel-header">
             <h3>ℹ️ Informasi Sistem</h3>
           </div>
           <div style="display:flex;flex-direction:column;gap:10px;">
             <div class="toggle-switch">
+<<<<<<< HEAD
               <span>
+=======
+              <span>Versi Aplikasi</span>
+              <span style="color:var(--muted)">v1.0.0</span>
+            </div>
+            <div class="toggle-switch">
+              <span>Firebase SDK</span>
+              <span style="color:var(--muted)">v10.12.0</span>
+            </div>
+            <div class="toggle-switch">
+              <span>Status Database</span>
+              <span class="badge-pill ok" id="dbStatus">Terhubung</span>
+            </div>
+            <div class="toggle-switch">
+              <span>Sensor Aktif</span>
+              <span style="color:var(--muted)" id="activeSensors">3 dari 4</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="js/dashboard.js"></script>
+  <script>
+    // Form Profil
+    document.getElementById('profileForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const alert = document.getElementById('profileAlert');
+      alert.style.display = 'block';
+      setTimeout(() => alert.style.display = 'none', 3000);
+    });
+
+    // Form Ambang Batas
+    document.getElementById('thresholdForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const alert = document.getElementById('thresholdAlert');
+      // Simpan ke localStorage
+      localStorage.setItem('threshold_suhu', document.getElementById('maxSuhu').value);
+      localStorage.setItem('threshold_kelembapan', document.getElementById('minKelembapan').value);
+      localStorage.setItem('threshold_cahaya', document.getElementById('minCahaya').value);
+      alert.style.display = 'block';
+      setTimeout(() => alert.style.display = 'none', 3000);
+    });
+
+    // Load saved settings
+    document.addEventListener('DOMContentLoaded', () => {
+      const suhu = localStorage.getItem('threshold_suhu');
+      const kelembapan = localStorage.getItem('threshold_kelembapan');
+      const cahaya = localStorage.getItem('threshold_cahaya');
+      if (suhu) document.getElementById('maxSuhu').value = suhu;
+      if (kelembapan) document.getElementById('minKelembapan').value = kelembapan;
+      if (cahaya) document.getElementById('minCahaya').value = cahaya;
+    });
+  </script>
+</body>
+</html>
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782

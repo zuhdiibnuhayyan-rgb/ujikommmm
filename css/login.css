@@ -20,7 +20,11 @@
 
 .login-card { padding: 48px 44px; }
 .login-brand { text-align: center; margin-bottom: 32px; }
+<<<<<<< HEAD
 .login-brand img { width: 48px; height: 48px; margin: 0 auto 12px; }
+=======
+.login-brand img { width: 72px; height: 72px; margin: 0 auto 12px; }
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 .login-brand h1 { font-size: 24px; font-weight: 800; letter-spacing: -.01em; }
 .login-brand p { color: var(--text-soft); font-size: 14px; margin-top: 6px; }
 .login-form .form-group { margin-bottom: 18px; }
@@ -101,3 +105,40 @@
   .login-art { display: none; }
   .login-card { padding: 36px 28px; }
 }
+<<<<<<< HEAD
+=======
+:root {
+  --primary: #4f46e5;
+  --text: #111827;
+  --text-soft: #6b7280;
+  --border: #dbe2ea;
+
+  --danger: #ef4444;
+  --success: #10b981;
+
+  --gradient: linear-gradient(
+    135deg,
+    #4f46e5,
+    #06b6d4
+  );
+}
+.login-card{
+  color:#111827;
+}
+.login-wrapper{
+  max-width:1150px;
+  min-height:650px;
+}
+
+.login-form input{
+  height:52px;
+}
+.login-form input:focus{
+  transform:translateY(-1px);
+}
+
+.btn-block{
+  width:100%;
+  justify-content:center;
+}
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782

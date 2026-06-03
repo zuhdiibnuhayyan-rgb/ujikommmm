@@ -1,15 +1,36 @@
 * {
+<<<<<<< HEAD
   margin: 0;
+=======
+<<<<<<< HEAD
+  margin: 0;
+=======
+   margin: 0;
+>>>>>>> c09a5c7 (zuhdibau)
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 body {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
   font-family: 'Poppins', sans-serif;
   background: #07111f;
   color: #fff;
   overflow-x: hidden;
+<<<<<<< HEAD
+=======
+=======
+       font-family: 'Poppins', sans-serif;
+       background: #07111f;
+       color: #fff;
+       overflow-x: hidden;
+>>>>>>> c09a5c7 (zuhdibau)
+>>>>>>> e2aaa51836459dcde877945a7cf717b6ed8bc782
 }
 
 img {
